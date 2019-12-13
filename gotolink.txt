@@ -1,0 +1,131 @@
+https://launch.getgo.com/launcher2/launch.html?token=e0-Z6KKcSYIhGrcLnfggQUI9GRuY5laPrlVFiUnLxaxavlJL5dJ5TtQN7mzVI4Ik4C13Vq1xba9OwTFLKcKq4ZHurzhNtkWZcn0v-SZK7150Gf4yh9A4jtjqJl8nayxKlmzTv_xW-bgs5KBPnhrNN8scgdLtRx09ww3nDNgIWl_igJxKLJ9X3otrDEh5YbZJPHuTiB0bxjKrZDeb_lu5gN-X_aIKdvU4pbiu7B1PoEs3PgxQfGKJ4ZQee4GOHoxtKmXBMN09x5oSFE1x_04vZNDbZuXbFkNWKBjXfIHfIRJsu1-6TPqZ9KKyuCaoKIcU1pv_LRYT0VhJA1mvdSUoccGmQbJedTOrJy5YIBV8qFgPw7tD5iGO-V6EZ8Kd2CzSn0JIIezF8oOh5_ZXOyFl5w93iCBYjv8ml2x1nkfhlZe4zqBwfMYKwwNMPBfFfIUwTRD1Yxhzb4cj9Ui3FbU10fXeQV30QdnusS8OWUGM69cqyohZmuR
+
+
+
+https://global.gotomeeting.com/join/437618213
+natarajan@clearcodeconsulting.com
+
+
+Day 3 - 
+parameter with 2 scenario
+scenario outline
+datatable
+tag, background
+selenium - frame, window, alert
+action class 
+select dropdown
+
+
+- Android
+webapps, native apps, hybrid apps
+setup
+real device connection and emulator
+browser open 
+magento operation
+
+native app
+
+appium start 
+run jenkins exe
+
+
+
+   Dictionary<string, string> blueCommand = new Dictionary<string, string>();
+            blueCommand.Add("command", "am start -a android.bluetooth.adapter.action.REQUEST_ENABLE");
+
+
+
+            driver.ExecuteScript("mobile:shell", blueCommand);
+ios
+
+
+
+
+
+
+
+<connectionStrings>
+    <add name="connapp"  connectionString="Data Source=balaji;Initial Catalog=test;User ID=sa;Password=123456;Integrated Security=True"/>
+    <add name="connapp123"  connectionString="Data Source=balaji123;Initial Catalog=test;User ID=sa;Password=123456;Integrated Security=True"/>
+    <add name="connapp12312"  connectionString="Data Source=balaji12345;Initial Catalog=test;User ID=sa;Password=123456;Integrated Security=True"/>
+  </connectionStrings>
+
+https://simpleprogrammer.com/parallel-testing-selenium-webdriver-automation-steroids/
+
+
+
+sharmilee91@gmail.com
+ermanisha1404@gmail.com
+kavitha.tmr@gmail.com
+praveena180317@gmail.com
+chowdarynikhil4321@gmail.com
+
+9538866046
+emulator:
+emulator -list-avds
+emulator@avdname
+
+img com: -- npm i -g opencv4nodejs
+install python 2.7 
+npm init -y
+npm install -g node-gyp
+install cmake msi-->https://cmake.org/download/
+cmake --version
+
+https://global.gotomeeting.com/join/437618213
+
+netstat -ano | findstr :<yourPortNumber>
+taskkill /PID <typeyourPIDhere> /F
+
+Device Details:
+adb shell dumpsys battery
+Bluetooth:
+adb shell am start -a android.bluetooth.adapter.action.REQUEST_ENABLE
+adb shell am start -a android.bluetooth.adapter.action.REQUEST_DISABLE
+
+Scroll
+adb shell input touchscreen swipe 530 1420 530 1120
+
+
+
+appium --> code with port launch 
+connecting via wifi
+appium --> appium server (inspect)
+swipe, tap, long press
+ADB COMMANDS
+
+
+ranjana.chouhan@gmail.com
+rgopalanj@gmail.com
+shafeeqshaju@gmail.com
+maniram007@gmail.com
+
+
+
+
+
+
+
+https://github.com/appium/appium/issues/2639
+NSPredicate(format: "label CONTAINS 'your label string'")
+or
+
+NSPredicate(format: "label BEGINSWITH 'your label string'")
+or
+
+NSPredicate(format: "label ENDSWITH 'your label string'")
+or
+
+NSPredicate(format: "label == 'your label string'")
+
+type == ‘XCUIElementTypeCell’ AND visible == 1
+
+
+driver.findElementByXPath(//XCUIElementTypeNavigationBar/XCUIElementTypeButton[@visible=“true”]);
+
+driver.findElement(MobileBy.iOSNsPredicateString("type == 'XCUIElementTypeNavigationBar'")).
+                findElement(MobileBy.iOSNsPredicateString("type == 'XCUIElementTypeStaticText' AND visible == 1"))
+
+
+driver.findElement(MobileBy.iOSNsPredicateString("type == 'XCUIElementTypeNavigationBar'")).
+                findElement(MobileBy.iOSNsPredicateString("type == 'XCUIElementTypeStaticText' AND visible == 1"))
