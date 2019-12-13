@@ -1,3 +1,5 @@
+image com
+
 byte[] screenshot = Base64.encodeBase64(driver.getScreenshotAs(OutputType.BYTES));
 FeaturesMatchingResult result = driver
         .matchImagesFeatures(screenshot, originalImg, new FeaturesMatchingOptions()
