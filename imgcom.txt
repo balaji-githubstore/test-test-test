@@ -1,0 +1,14 @@
+byte[] screenshot = Base64.encodeBase64(driver.getScreenshotAs(OutputType.BYTES));
+FeaturesMatchingResult result = driver
+        .matchImagesFeatures(screenshot, originalImg, new FeaturesMatchingOptions()
+                .withDetectorName(FeatureDetector.ORB)
+                .withGoodMatchesFactor(40)
+                .withMatchFunc(MatchingFunction.BRUTE_FORCE_HAMMING)
+                .withEnabledVisualization());
+assertThat(result.getVisualization().length, is(greaterThan(0)));
+assertThat(result.getCount(), is(greaterThan(0)));
+assertThat(result.getTotalCount(), is(greaterThan(0)));
+assertFalse(result.getPoints1().isEmpty());
+assertNotNull(result.getRect1());
+assertFalse(result.getPoints2().isEmpty());
+assertNotNull(result.getRect2());
